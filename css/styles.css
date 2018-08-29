@@ -266,6 +266,8 @@ a.expand { display: block; position: absolute; z-index: 100; text-align: center;
 .img:hover img { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
 .designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 50px; }
 #portfolioSlider {    margin: 70px 0 0; }
+.no_expand {left: 0; right: 0; bottom : 47%; margin: 0 auto -30px auto;}
+.no_expand { display: block; position: absolute; z-index: 100; text-align: center; color: #fff; font-weight: 600; font-size: 14px; text-transform: uppercase; line-height: 30px;}
 /* ==========================================================================
 Subscribe
 ========================================================================== */
