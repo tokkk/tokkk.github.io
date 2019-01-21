@@ -389,13 +389,13 @@
           cwidth,
           dx,
           startT,
-          scrolling = false,
+          scrolling = true,
           localX = 0,
           localY = 0,
           accDx = 0;
 
         if(!msGesture){
-            el.addEventListener('touchstart', onTouchStart, false);
+            el.addEventListener('touchstart', onTouchStart, true);
 
             function onTouchStart(e) {
               if (slider.animating) {
@@ -419,8 +419,8 @@
                 startX = (vertical) ? localY : localX;
                 startY = (vertical) ? localX : localY;
 
-                el.addEventListener('touchmove', onTouchMove, false);
-                el.addEventListener('touchend', onTouchEnd, false);
+                el.addEventListener('touchmove', onTouchMove, true);
+                el.addEventListener('touchend', onTouchEnd, true);
               }
             }
 
@@ -448,7 +448,7 @@
 
             function onTouchEnd(e) {
               // finish the touch by undoing the touch session
-              el.removeEventListener('touchmove', onTouchMove, false);
+              el.removeEventListener('touchmove', onTouchMove, true);
 
               if (slider.animatingTo === slider.currentSlide && !scrolling && !(dx === null)) {
                 var updateDx = (reverse) ? -dx : dx,
@@ -460,7 +460,7 @@
                   if (!fade) slider.flexAnimate(slider.currentSlide, slider.vars.pauseOnAction, true);
                 }
               }
-              el.removeEventListener('touchend', onTouchEnd, false);
+              el.removeEventListener('touchend', onTouchEnd, true);
 
               startX = null;
               startY = null;
