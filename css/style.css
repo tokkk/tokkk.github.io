@@ -380,12 +380,12 @@ img__wrap {
     overflow: hidden;
 }
 
-header__nav ul {
+.header__nav ul {
     display: inline-table;
     max-width: 100%;
 }
 
-header__nav ul li {
+.header__nav ul li {
     display: table-cell;
     white-space: nowrap;
     list-style-type: none;
@@ -394,7 +394,7 @@ header__nav ul li {
   ::-webkit-scrollbar{
   display: none;}
 
-  nav header__nav {
+  nav .header__nav {
     width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
