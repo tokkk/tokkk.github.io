@@ -1,278 +1,281 @@
+
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MEGUMI - Portfolio Site.</title>
-    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href="css/flexslider.css" rel="stylesheet" >
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/queries.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/flickity.css" media="screen">
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-       <!--<script src="js/flickity.pkgd.js"></script>-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja-JP" lang="ja-JP" prefix="og: http://ogp.me/ns#" class="no-js" data-layout-name="grammy-2019">
+<!--[if lt IE 9]> <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> <![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+<title>MEGUMI - Portfolio Site.</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,700,900" rel="stylesheet">
+<!--<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i' type='text/css' media='all' /> -->
+<!-- Main Stylesheet File -->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/normalize.css" rel="stylesheet">
+<link href="js/scrollanimation.js" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(
+  function(){
+    $("a img") .hover(function(){
+       $(this).fadeTo("4000",0.3); // マウスオーバーで透明度を30%にする
+    },function(){
+       $(this).fadeTo("4000",1.0); // マウスアウトで透明度を100%に戻す
+    });
+  });
+  </script>
 
-      </head>
-      <body id="top">
-        <header id="home">
-          <nav>
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
-                  <nav class="pull">
-                    <ul class="top-nav">
-                      <li><a href="#portfolio">Webdesign<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li><a href="#pamphlet">Pamphlet<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li><a href="#illustlation">Illustlation<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
+</head>
+<body>
+  <div class="wrap">
+  <!-- Nav -->
+    <div id="header-outer">
+    <!-- インクルード -->
+    </div>
+
+  <main class="main">
+
+　<section class="hero">
+  <!-- Flickity HTML init -->
+  <div class="carousel js-animation" data-flickity='{ "autoPlay": true }'>
+    <div class="carousel-cell"><a href="./aeras.html"><img src="img/portfolio_08.jpg"></a></div>
+    <div class="carousel-cell"><a href="./dogaclub.html"><img src="img/portfolio_01.jpg"></a></div>
+    <div class="carousel-cell"><a href="./mynaviabc.html"><img src="img/portfolio_02.jpg"></a></div>
+    <div class="carousel-cell"><a href="./kireinodaidokoro.html"><img src="img/portfolio_03.jpg"></a></div>
+    <div class="carousel-cell"><a href="./jcd.html"><img src="img/portfolio_04.jpg"></a></div>
+  </div>
+ </section>
+
+  <section class="title">
+    <p class="title_works">WORKS</p>
+  </section>
+
+　　 <section class="item">
+      <div class="container">
+        <div class="grid sa sa?up js-animation" id="elm9">
+          <div class="grid-inner">
+          
+          <div class="img__wrap">
+          <a href="./traveller_1.html"><img src="img/cake.gif"></a>
+          <p class="i_icon">Illustration</p>
             </div>
-          </nav>
-
-          <section class="hero" id="hero">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-12 text-right navicon">
-                    <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-8 col-md-offset-2 text-center inner">
-                    <h1 class="animated fadeInDown">
-  MEGUMI</h1>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </header>
-
-        <section class="intro text-center section-padding" id="intro">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2 wp1">
-                <h1>Works</h1>
-              </div>
             </div>
+            </div>
+
+        <div class="grid sa sa?up js-animation" data-sa_delay="600" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="w_icon">Web</p>
+          <div class="img__wrap">
+          <a href="./kireinodaidokoro.html"><img src="img/kitchen.png"></a>
           </div>
-        </section>
-
-       <section class="portfolio text-center section-padding" id="portfolio">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">WEB DESIGN</h1>
-                <p>Dreamweaver Photoshop illustrator</p>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="team-wrapper">
-                <div id="portfolioSlider">
-                  <ul class="slides">
-                    <li>
-                    <div class="col-md-12 wp5">
-                        <a href="http://www.makoto-inoue.net/aeras.html" target="blank"><img src="img/portfolio_08.jpg" alt="Portfolio Item" class="img-responsive center-block"></a>
-                        <h2>AERIAL YOGA STUDIO</h2>
-                        <p>Cording and update.</p>
-                        <p><a href="http://www.makoto-inoue.net/aeras.html" target="blank">http://www.makoto-inoue.net/aeras/</a></p>
-                    </div>
-                    </li>
-<li>              
-                      <div class="col-md-12 wp5 delay-05s">
-                      <img src="img/portfolio_01.jpg" alt="Portfolio Item" class="img-responsive center-block">
-                      <h2>Doga club (Asahi Broadcasting)</h2>
-                      <p>Design Cording and update.</p>
-                        <p>Not viewable</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="col-md-12 wp5 delay-1s">
-                      <a href="http://asahi.co.jp/mynaviabcgolf/2014/" target="blank"><img src="img/portfolio_02.jpg" alt="Portfolio Item" class="img-responsive center-block"></a>
-                      <h2>Mynavi ABC Golf (Asahi Broadcasting)</h2>
-                      <p>Design Cording and update.</p>
-                      <p><a href="http://asahi.co.jp/mynaviabcgolf/2014/" target="blank">http://asahi.co.jp/mynaviabcgolf/2014/</a></p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="col-md-12 wp5">
-                       <a href="http://www.tv-osaka.co.jp/ip4/kitchen" target="blank"><img src="img/portfolio_03.jpg" alt="Portfolio Item" class="img-responsive center-block"></a>
-                      <h2>Kirei no daidokoro (Television Osaka Inc.)</h2>
-                      <p>Design Cording and update.</p>
-                        <p><a href="http://www.tv-osaka.co.jp/ip4/kitchen" target="blank">http://www.tv-osaka.co.jp/ip4/kitchen</a></p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="col-md-12 wp5 delay-05s">
-                       <a href="http://www.tv-osaka.co.jp/ip4/jcd/" target="blank"><img src="img/portfolio_04.jpg" alt="Portfolio Item" class="img-responsive center-block"></a>
-                      <h2>Japan Count Down (Television Osaka Inc.)</h2>
-                      <p>Design Cording and update.</p>
-                        <p><a href="http://www.tv-osaka.co.jp/ip4/jcd/" target="blank">http://www.tv-osaka.co.jp/ip4/jcd/</a></p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="col-md-12 wp5 delay-1s">
-                       <a href="http://www.tv-osaka.co.jp/newsbiz/" target="blank"><img src="img/portfolio_05.jpg" alt="Portfolio Item" class="img-responsive center-block"></a>
-                      <h2>News biz (Television Osaka Inc.)</h2>
-                      <p>Design Cording and update.</p>
-                      <p><a href="http://www.tv-osaka.co.jp/newsbiz/" target="blank">http://www.tv-osaka.co.jp/newsbiz/</a></p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="col-md-12 wp5">
-                       <a href="http://www.tv-osaka.co.jp/ip4/asi/scent.html/" target="blank"><img src="img/portfolio_06.jpg" alt="Portfolio Item" class="img-responsive center-block"></a>
-                      <h2>Sent Of A Woman (Television Osaka Inc.)</h2>
-                      <p>Design Cording and update.</p>
-                      <p><a href="http://www.tv-osaka.co.jp/ip4/asi/scent.html/" target="blank">http://www.tv-osaka.co.jp/ip4/asi/scent.html/</a></p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="col-md-12 wp5 delay-05s">
-                       <a href="http://www.tv-osaka.co.jp/kimsuro/" target="blank"><img src="img/portfolio_07.jpg" alt="Portfolio Item" class="img-responsive center-block"></a>
-                      <h2>Iron King Kim Suro (Television Osaka Inc.)</h2>
-                      <p>Design Cording and update.</p>
-                      <p><a href="http://www.tv-osaka.co.jp/kimsuro/" target="blank">http://www.tv-osaka.co.jp/kimsuro/</a></p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
           </div>
-        </section>
+        </div>
 
-        <section class="pamphlet text-center section-padding" id="pamphlet">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">Pamphlet</h1>
-                <p>Photoshop illustrator</p>
-              </div>
+        <div class="grid sa sa?up js-animation" data-sa_delay="600" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="w_icon">Web</p>
+          <div class="img__wrap">
+          <a href="./dogaclub.html"><img src="img/dogaclub.jpg"></a>
             </div>
-            <div class="row">
-              <div class="team-wrapper">
-                  <ul class="slides">
-                    <li>
-                      <div class="col-md-12 wp5 delay-05s">
-                        <img src="img/bayside_p.jpg" alt="Illustration" class="img-responsive center-block">
-                        <h2>School Introduction (Bayside English Cebu)</h2>
-                        <p>Design</p>
-                      </div>
-                    </li>
-                  </ul>
-              </div>
             </div>
-          </div>
-        </section>
-
-
-       <section class="illustlation text-center section-padding" id="illustlation">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">Illustration</h1>
-                <p>Photoshop illustrator</p>
-              </div>
             </div>
-            <div class="row">
-              <div class="team-wrapper">
-                <div id="teamSlider">
-                  <ul class="slides">
-                    <li>
-                    <div class="col-md-12 wp5">
-                        <img src="img/mati-07.jpg" alt="Illustration" class="img-responsive center-block">
-                        <h2>Zoomin Flash Game(Nippon Television Network Corporation)</h2>
-                        <p>Illustlation (character design is another person.)</p>
-                    </div>
-                     </li>
-                    <li>              
-                      <div class="col-md-12 wp5 delay-05s">
-                        <img src="img/mati-02.gif" alt="Illustration">
-                        <h2>Zoomin (Nippon Television Network Corporation)</h2>
-                        <p>Illustlation(character design is another person.)</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="col-md-12 wp5 delay-1s">
-                        <img src="img/mati-01.gif" alt="Illustration">
-                        <h2>Zoomin (Nippon Television Network Corporation)</h2>
-                        <p>Illustlation(character design is another person.)</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="col-md-12 wp5">
-                        <img src="img/mati-04.jpg" alt="Illustration">
-                        <h2>Zoomin (Nippon Television Network Corporation)</h2>
-                        <p>Illustlation(character design is another person.)</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="col-md-12 wp5 delay-05s">
-                        <img src="img/mati-05.jpg" alt="Illustration">
-                        <h2>Zoomin (Nippon Television Network Corporation)</h2>
-                        <p>Illustlation(character design is another person.)</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="col-md-12 wp5 delay-1s">
-                        <img src="img/mati-03.gif" alt="Illustration">
-                        <h2>Zoomin (Nippon Television Network Corporation)</h2>
-                        <p>Illustlation(character design is another person.)</p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+
+        <div class="grid sa sa?up js-animation" data-sa_delay="100" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="i_icon">Illustration</p>
+          <div class="img__wrap">
+          <a href="./traveller_3.html"><img src="img/camel.gif"></a>
             </div>
-          </div>
-        </section>
-
-
-
-
-        <!-- <div class="ignite-cta text-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <ul class="social-buttons">
-                  <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-              </div>
             </div>
-          </div>
-        </div> -->
-
-        <section class="dark-bg text-center contact-wrap" id="contact">
-          <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
-        </section>
-
-        <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6 credit">
-                <p></p>
-              </div>
             </div>
-          </div>
-        </footer>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/waypoints.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/scripts.js"></script>
-        <script src="js/jquery.flexslider.js"></script>
-        <script src="js/modernizr.js"></script>
-      </body>
-    </html>
+        <div class="grid sa sa?up js-animation" data-sa_delay="700" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="i_icon">Illustration</p>
+          <div class="img__wrap">
+          <a href="./traveller_5.html"><img src="img/curry.gif"></a>
+            </div>
+            </div>
+            </div>
+
+        <div class="grid sa sa?up js-animation" data-sa_delay="900" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="i_icon">Illustration</p>
+          <div class="img__wrap">
+          <a href="./zoomin_always2.html"><img src="img/always2_icon.jpg"></a>
+            </div>
+            </div>
+            </div>
+
+        <div class="grid sa sa?up js-animation" data-sa_delay="1000" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="i_icon">Illustration</p>
+          <div class="img__wrap">
+          <a href="./traveller_2.html"><img src="img/dolphin.gif"></a>
+            </div>
+            </div>
+            </div>
+
+        <div class="grid sa sa?up  js-animation" data-sa_delay="200" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="i_icon">Illustration</p>
+          <div class="img__wrap">
+          <a href="./zoomin_always1.html"><img src="img/always1_icon2.gif"></a>
+            </div>
+            </div>
+            </div>
+
+        <div class="grid sa sa?up js-animation" data-sa_delay="800" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="i_icon">Illustration</p>
+          <div class="img__wrap">
+         <a href="./traveller_4.html"><img src="img/jellyfish.gif"></a>
+            </div>
+            </div>
+            </div>
+
+
+        <div class="grid sa sa?up js-animation" data-sa_delay="300" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="i_icon">Illustration</p>
+          <div class="img__wrap">
+          <a href="./traveller_6.html"><img src="img/grape.gif"></a>
+            </div>
+            </div>
+            </div>
+
+        <div class="grid sa sa?up js-animation" data-sa_delay="900" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="w_icon">web</p>
+          <div class="img__wrap">
+          <a href="./mynaviabc.html"><img src="img/mynavigolf.png"></a>
+            </div>
+            </div>
+            </div>
+
+        <div class="grid sa sa?up js-animation" data-sa_delay="300" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="i_icon">Illustration</p>
+          <div class="img__wrap">
+          <a href="./zoomin_1.html"><img src="img/zoomin02.gif"></a>
+            </div>
+            </div>
+            </div>
+
+        <div class="grid sa sa?up js-animation" data-sa_delay="300" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="w_icon">Web</p>
+          <div class="img__wrap">
+          <a href="./sentofwoman.html"><img src="img/sentofwoman.jpg"></a>
+            </div>
+            </div>
+            </div>
+        <div class="grid sa sa?up js-animation" data-sa_delay="300" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="w_icon">Web</p>
+          <div class="img__wrap">
+          <a href="./newsbiz.html"><img src="img/newsbiz.png"></a>
+            </div>
+            </div>
+            </div>
+
+        <div class="grid sa sa?up js-animation" data-sa_delay="300" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="w_icon">Web</p>
+          <div class="img__wrap">
+          <a href="./jcd.html"><img src="img/jcd.png"></a>
+            </div>
+            </div>
+            </div>
+
+        <div class="grid sa sa?up js-animation" data-sa_delay="300" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="w_icon">Web</p>
+          <div class="img__wrap">
+          <a href="./canhear.html"><img src="img/canhear.png"></a>
+            </div>
+            </div>
+            </div>
+
+        <div class="grid sa sa?up js-animation" data-sa_delay="300" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="w_icon">Web</p>
+          <div class="img__wrap">
+         <a href="./aeras.html"><img src="img/aeras.jpg"></a>
+            </div>
+            </div>
+            </div>
+        <!--<div class="grid sa sa?up js-animation" data-sa_delay="300" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="i_icon">Illustration</p>
+         <a href="./zoomin_3.html"><img src="img/zoomin05.jpg"></a>
+       </div>
+     </div>-->
+        <div class="grid sa sa?up js-animation" data-sa_delay="300" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="i_icon">Illustration</p>
+          <div class="img__wrap">
+          <a href="./zoomin_2.html"><img src="img/zoomin07.gif"></a>
+            </div>
+            </div>
+            </div>
+
+         <div class="grid sa sa?up js-animation" data-sa_delay="300" data-sa_trigger="#elm9">
+          <div class="grid-inner">
+          <p class="i_icon">Illustration</p>
+          <div class="img__wrap">
+          <a href="./zoomin_3.html"><img src="img/zoomin08.gif"></a>
+            </div>
+            </div>
+            </div>
+
+          <div class="grid sa sa?up js-animation" data-sa_delay="300" data-sa_trigger="#elm9">
+            <div class="grid-inner">
+            <p class="i_icon">Illustration</p>
+            <div class="img__wrap">
+            <a href="./zoomin_4.html"><img src="img/zoomin09.gif"></a>
+            </div>
+            </div>
+            </div>
+
+           <div class="grid sa sa?up js-animation" data-sa_delay="300" data-sa_trigger="#elm9">
+             <div class="grid-inner">
+             <p class="f_icon">Flash</p>
+             <div class="img__wrap">
+             <a href="./flash_1.html"><img src="img/zoomin_flash.png"></a>
+            </div>
+            </div>
+            </div>
+
+            <div class="grid sa sa?up js-animation" data-sa_delay="300" data-sa_trigger="#elm9">
+              <div class="grid-inner">
+              <p class="f_icon">Flash</p>
+              <div class="img__wrap">
+              <a href="./flash_2.html"><img src="img/gogo.png"></a>
+              </div>
+              </div>
+             </div>
+
+             <div class="grid sa sa?up js-animation" data-sa_delay="300" data-sa_trigger="#elm9">
+               <div class="grid-inner">
+               <p class="p_icon">pamphlet</p>
+               <div class="img__wrap">
+               <a href="./pamphlet.html"><img src="img/bayside_p_s.jpg"></a>
+               </div>
+               </div>
+              </div>
+      </div>
+    </section>
+
+  </main>
+  <div id="footer-outer">
+  <!-- インクルード -->
+  </div>
+  </div>
+
+<script type="text/javascript" src="js/scrollanimation.js"></script>
+<script type="text/javascript" src="js/include.js"></script>
+<script type="text/javascript" src="js/flickity.pkgd.min.js"></script>
+
+</body>
+
+</html>

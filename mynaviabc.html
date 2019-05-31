@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja-JP" lang="ja-JP" prefix="og: http://ogp.me/ns#" class="no-js" data-layout-name="grammy-2019">
+<!--[if lt IE 9]> <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> <![endif]-->
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+<title>MEGUMI - Portfolio Site.</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,700,900" rel="stylesheet">
+<!--<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i' type='text/css' media='all' /> -->
+<!-- Main Stylesheet File -->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/normalize.css" rel="stylesheet">
+<link href="js/scrollanimation.js" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+　　$(function(){
+  $("#header-outer").load("./header.html #header-inner");
+　　})
+</script>
+<script type="text/javascript">
+　　$(function(){
+  $("#footer-outer").load("./footer.html #footer-inner");
+　　})
+</script>
+</head>
+<body>
+<div class="wrap">
+<!-- Nav -->
+  <div id="header-outer">
+  <!-- インクルード -->
+  </div>
+  <main class="main">
+  <div class="contArea">
+    <div class="contArea_opacity">
+      <div class="contArea_inner js-animation">
+      <img src="./img/mynavigolf.jpg">
+      </div>
+      <div class="contTextarea">
+        <div class="contTextarea_inner">
+        <p class="works_title">朝日放送
+        マイナビABCチャンピオンシップゴルフトーナメント</p>
+        <p class="works_item-summary">https://www.asahi.co.jp/mynaviabcgolf/2014/ <br>担　当：デザイン・コーディング・運営</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  </main>
+  <div id="footer-outer">
+  <!-- インクルード -->
+  </div>
+  </div>
+
+
+  <script>
+  function showElementAnimation() {
+
+    var element = document.getElementsByClassName('js-animation');
+    if(!element) return; // 要素がなかったら処理をキャンセル
+
+    var showTiming = window.innerHeight > 768 ? 200 : 40; // 要素が出てくるタイミングはここで調整
+    var scrollY = window.pageYOffset;
+    var windowH = window.innerHeight;
+
+    for(var i=0;i<element.length;i++) { var elemClientRect = element[i].getBoundingClientRect(); var elemY = scrollY + elemClientRect.top; if(scrollY + windowH - showTiming > elemY) {
+        element[i].classList.add('is-show');
+      } else if(scrollY + windowH < elemY) {
+        // 上にスクロールして再度非表示にする場合はこちらを記述
+        element[i].classList.remove('is-show');
+      }
+    }
+  }
+  showElementAnimation();
+  window.addEventListener('scroll', showElementAnimation);
+  </script>
+
+</body>
+
+</html>
