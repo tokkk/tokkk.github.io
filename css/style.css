@@ -139,16 +139,18 @@ header-inner {
   height: auto;*/
 }
 
+
+@media (min-width: 641px) {/* 1000px以上*/
+  nav ul{
+    margin: 0 15px 0 0;
+  }
 .header-inner {
   display: flex;
   height: 100%;
   width: 100%;
 }
 
-@media (min-width: 641px) {/* 1000px以上*/
-  nav ul{
-    margin: 0 15px 0 0;
-  }
+
 }
 
 
