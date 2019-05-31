@@ -380,12 +380,12 @@ img__wrap {
     overflow: hidden;
 }
 
-.header__nav ul {
+  nav ul {
     display: inline-table;
     max-width: 100%;
 }
 
-.header__nav ul li {
+  nav ul li {
     display: table-cell;
     white-space: nowrap;
     list-style-type: none;
