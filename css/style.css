@@ -389,6 +389,9 @@ nav ul li {
     list-style-type: none;
 }
 
+  ::-webkit-scrollbar{
+  display: none;}
+
   nav div {
     width: 100%;
     overflow-x: auto;
