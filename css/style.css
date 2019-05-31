@@ -394,7 +394,7 @@ img__wrap {
   ::-webkit-scrollbar{
   display: none;}
 
-  nav div {
+  nav .header__nav {
     width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
