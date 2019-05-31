@@ -411,12 +411,14 @@ nav ul li {
    margin: 0 auto;
  }
 
+
+/*
  .list li:not(:last-child)::after {
    position: absolute;
    top: 22px;
-   right: 2px;
+   right: 2px;*/
    /*transform-origin: center;*/
-   width: 1px;
+   /*width: 1px;
    height: 13px;
    background-color: #b2b2b2;
    content: "";
@@ -433,7 +435,7 @@ ul .list{
  .list {
    margin-top: 0;
    justify-content: center;
- }
+ }*/
 
  .title {
    display: flex;
