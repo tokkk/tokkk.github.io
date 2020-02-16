@@ -858,7 +858,7 @@ a:active { color: #d7d7d7 }
 }
 
 .contTextarea_inner {
-  width: 70%;
+  width: 80%;
   text-align: left;
   margin: 0 auto;
   background-color: #ffffff;
@@ -890,6 +890,7 @@ a:active { color: #d7d7d7 }
 
 .works_item-summary a{
   text-decoration: none;
+  color: #212121;
 }
 
 .hero {
