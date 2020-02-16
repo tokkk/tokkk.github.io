@@ -853,19 +853,19 @@ a:active { color: #d7d7d7 }
 
 .contTextarea {
   margin: 0 auto;
-  padding: 2%;
+  padding: 3%;
   background-color: #ffffff;
 }
 
 .contTextarea_inner {
-  width: 90%;
+  width: 70%;
   text-align: left;
   margin: 0 auto;
   background-color: #ffffff;
   box-sizing: border-box;
   /**/display: block;
   padding: 2.70833% 6.25%;
-  border: solid 1px #000;
+  border-top: solid 1px #b2b2b2;
 }
 
 .works_title{
@@ -886,6 +886,10 @@ a:active { color: #d7d7d7 }
   color: #212121;
   font-size: 1.1rem;
   line-height: 1.6;
+}
+
+.works_item-summary a{
+  text-decoration: none;
 }
 
 .hero {
