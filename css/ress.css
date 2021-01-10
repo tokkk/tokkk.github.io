@@ -48,9 +48,7 @@ main {
   display: block; /* Render the `main` element consistently in IE. */
 }
 
-main {
-padding-top: 5rem;
-}
+
 
 summary {
   display: list-item; /* Add the correct display in all browsers */
@@ -280,4 +278,14 @@ progress {
 /* Specify the unstyled cursor of disabled, not-editable, or otherwise inoperable elements */
 [aria-disabled] {
   cursor: default;
+}
+
+main {
+padding-top: 5.5rem;
+}
+
+@media only screen and (min-width:600px) {
+main {
+padding-top: 5rem;
+}
 }
