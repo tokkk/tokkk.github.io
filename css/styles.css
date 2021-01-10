@@ -171,6 +171,7 @@ background-color:transparent;
 .menu ul li a {
 border: none;
 }
+
 }
 
 
@@ -396,14 +397,17 @@ width: 100%;
 height: auto;
 }
 
-
-
-
-
-
 .title {
 font-size: 1.8rem;
 }
+
+.details .main{
+padding-top: 5.5rem;
+}
+}
+
+.details .main{
+padding-top: 5rem;
 }
 
 .detail_item{
