@@ -48,6 +48,10 @@ main {
   display: block; /* Render the `main` element consistently in IE. */
 }
 
+main {
+padding-top: 5rem;
+}
+
 summary {
   display: list-item; /* Add the correct display in all browsers */
 }
