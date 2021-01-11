@@ -7,6 +7,9 @@ padding-top: 70px;
 
 body{
 position: relative;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
 }
 
 header{
@@ -320,10 +323,7 @@ footer{
 text-align: center;
 background-color: #F6F6F6;
 height: 70px;
-position: absolute;
-bottom: 0;
-left: 0;
-width: 100%;
+margin-top: auto;
 }
 
 
