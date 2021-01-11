@@ -366,6 +366,9 @@ border-top: 1px solid;
 
 main{
 padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 @media only screen and (min-width:600px) {
@@ -412,6 +415,9 @@ font-size: 1.8rem;
 
 main{
 padding-top: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 }
 
