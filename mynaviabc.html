@@ -1,82 +1,58 @@
-
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja-JP" lang="ja-JP" prefix="og: http://ogp.me/ns#" class="no-js" data-layout-name="grammy-2019">
-<!--[if lt IE 9]> <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> <![endif]-->
-
+﻿<!DOCTYPE html>
+<html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
-<title>MEGUMI - Portfolio Site.</title>
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,700,900" rel="stylesheet">
-<!--<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i' type='text/css' media='all' /> -->
-<!-- Main Stylesheet File -->
-<link href="css/style.css" rel="stylesheet">
-<link href="css/normalize.css" rel="stylesheet">
-<link href="js/scrollanimation.js" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript">
-　　$(function(){
-  $("#header-outer").load("./header.html #header-inner");
-　　})
-</script>
-<script type="text/javascript">
-　　$(function(){
-  $("#footer-outer").load("./footer.html #footer-inner");
-　　})
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>MEGUMI TOKUYAMA</title>
+    <meta http-equiv="content-type" charset="utf-8">
+    <link rel="stylesheet" href="./css/ress.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.3.7/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.3.7/js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/swiper.js"></script>
+    <script type="text/javascript" src="js/toglle.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
+    <script type="text/javascript" src="js/fadesecond.js"></script>
 </head>
 <body>
-<div class="wrap">
-<!-- Nav -->
-  <div id="header-outer">
-  <!-- インクルード -->
-  </div>
-  <main class="main">
-  <div class="contArea">
-    <div class="contArea_opacity">
-      <div class="contArea_inner js-animation">
-      <img src="./img/mynavigolf.jpg">
-      </div>
-      <div class="contTextarea">
-        <div class="contTextarea_inner">
-        <p class="works_title">朝日放送
-        マイナビABCチャンピオンシップゴルフトーナメント</p>
-        <p class="works_item-summary"><a href="https://www.asahi.co.jp/mynaviabcgolf/2014/" target="_blank">https://www.asahi.co.jp/mynaviabcgolf/2014/</a><br>担　当：デザイン・コーディング・運営</p>
-        </div>
-      </div>
-      </div>
+  <!-- Nav -->
+    <div id="header-outer">
+    <!-- インクルード -->
     </div>
-  </div>
-  </main>
-  <div id="footer-outer">
-  <!-- インクルード -->
-  </div>
-  </div>
-
-
-  <script>
-  function showElementAnimation() {
-
-    var element = document.getElementsByClassName('js-animation');
-    if(!element) return; // 要素がなかったら処理をキャンセル
-
-    var showTiming = window.innerHeight > 768 ? 200 : 40; // 要素が出てくるタイミングはここで調整
-    var scrollY = window.pageYOffset;
-    var windowH = window.innerHeight;
-
-    for(var i=0;i<element.length;i++) { var elemClientRect = element[i].getBoundingClientRect(); var elemY = scrollY + elemClientRect.top; if(scrollY + windowH - showTiming > elemY) {
-        element[i].classList.add('is-show');
-      } else if(scrollY + windowH < elemY) {
-        // 上にスクロールして再度非表示にする場合はこちらを記述
-        element[i].classList.remove('is-show');
-      }
-    }
-  }
-  showElementAnimation();
-  window.addEventListener('scroll', showElementAnimation);
-  </script>
-
+        <main>
+            <section class="breadcrumb">
+                <ol class="inner">
+                <li><span><a href="./index.html">トップ</a></span></li>
+                <li><span><a href="./index.html#Web">Web</span></a></li>
+                <li><span>朝日放送 マイナビABCチャンピオンシップゴルフトーナメント</span></li>
+                </ol>
+            </section>
+            <section id="Web">
+                <dl class="inner">
+                <dt class="title">Web</dt>
+                <dd>
+                <figure class="detail_item">
+                <img src="./img/mynavigolf.jpg">
+                <figcaption class="detail">
+                <p class="detail_txt">朝日放送 マイナビABCチャンピオンシップゴルフトーナメント<br><a href="https://www.asahi.co.jp/mynaviabcgolf/2014/" target="_blank">https://www.asahi.co.jp/mynaviabcgolf/2014/</a><br>担　当：デザイン・コーディング・運営</p>
+                </figcaption>
+                </figure>
+                </dl>
+            </section>
+        </main>
+    <div id="footer-outer">
+    <!-- インクルード -->
+    </div>
 </body>
-
 </html>
