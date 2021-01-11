@@ -320,7 +320,12 @@ footer{
 text-align: center;
 background-color: #F6F6F6;
 height: 70px;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
 }
+
 
 #Web {
 padding-bottom: 5%;
