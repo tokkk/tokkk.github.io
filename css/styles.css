@@ -203,7 +203,7 @@ list-style-type: none;
 }
 
 .swiper-slide {
-max-width: 100%;
+width: 100%;
 }
 
 :root {
