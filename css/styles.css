@@ -238,6 +238,7 @@ position: relative;
 
 
 section {
+ margin: 0 5%;
  padding-bottom: 18%;
 }
 
@@ -284,8 +285,6 @@ border-radius: 10px 10px 10px 10px; /* ����E�E��E�E���E�
     padding: 3px;
     margin: 3px;
    }
-
-
 
 .img_box li:nth-child(1){
     background-image: url("../img/zoomin1.gif");  /* �\������摜 */
@@ -370,9 +369,9 @@ height: auto;
 
 main{
 padding-top: 5rem;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
 }
 
 @media only screen and (min-width:600px) {
@@ -386,6 +385,7 @@ width: auto;
 }
 
 section {
+ margin: 0; 
  padding-bottom: 4%;
 }
 
