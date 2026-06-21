@@ -248,7 +248,7 @@ display: block;
 
 
 
-#Web dt, #Illustration dt, #Flash dt, #Pamphlet dt {
+#Web dt, #Illustration dt, #Flash dt, #Gadget dt, #Pamphlet dt {
 padding-top: 3%;
 padding-bottom: 6%;
 }
@@ -394,7 +394,7 @@ section {
 margin: 0 auto;
 }
 
-#Web dd, #Illustration dd, #Flash dd, #Pamphlet dd {
+#Web dd, #Illustration dd, #Flash dd, #Gadget dd, #Pamphlet dd {
 display: flex;
 flex-wrap: wrap;
 justify-content: flex-start;
