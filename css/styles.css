@@ -374,6 +374,21 @@ flex-direction: column;
 min-height: 100vh;
 }
 
+.detail_box {
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+}
+
+.detail_box_item {
+  width: 50%;
+  padding: 1%;
+}
+
+.detail_box_txt {
+   padding: 1%; 
+}
+
 @media only screen and (min-width:600px) {
 .swiper-container{
   margin: 0 auto;
@@ -423,6 +438,7 @@ padding-top: 5.5rem;
   flex-direction: column;
   min-height: 100vh;
 }
+
 }
 
 .detail_item{
