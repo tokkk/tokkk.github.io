@@ -409,7 +409,7 @@ section {
 margin: 0 auto;
 }
 
-#Web dd, #Illustration dd, #Flash dd, #Gadget dd, #Pamphlet dd {
+#Web dd, #Illustration dd, #App dd, #Flash dd, #Gadget dd, #Pamphlet dd {
 display: flex;
 flex-wrap: wrap;
 justify-content: flex-start;
